@@ -93,6 +93,9 @@ h4 {
     display: inline-block;
 }
 
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
 
 .row-table {
     display: table;
